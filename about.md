@@ -1,7 +1,8 @@
 ---
 layout: default
-title: About Long Haul
+title: ztwotest
 ---
+![test png](/assets/img/touring.jpg)
 
 <div class="post">
 	<h1 class="pageTitle">About Long Haul</h1>
@@ -23,3 +24,4 @@ title: About Long Haul
   		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
   	</ul>
 </div>
+]
