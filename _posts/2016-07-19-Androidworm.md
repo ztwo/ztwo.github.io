@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android蠕虫分析报告" 
-date:   2016-07-14
+date:   2016-07-19
 ---
 #### 年初跟进用户反馈问题，发现了几例蠕虫病毒扩散事件，当时写的跟进报告，报告主要是分析蠕虫的运作，详细反编译过程，请google。
 
@@ -35,12 +35,22 @@ date:   2016-07-14
 
 3.类名：com.phone.stop.db.f.class，可以看到针对字段进行了筛选，一旦用户短信触发了这些字段，就会往指定邮箱发送短信
 
+![png](/assets/img/Androidworm/02.png)
+
 4.类名：com.phone.stop.db.a.class，发送到制定手机号与邮箱的配置信息。
+
+![png](/assets/img/Androidworm/03.png)
 
 5.登录源码内的邮箱：17190****@sina.cn
 
+![png](/assets/img/Androidworm/04.png)
+
 6.病毒从宿主手机内获取到的短信内容
 
+![png](/assets/img/Androidworm/05.png)
+
 7.病毒从宿主手机内获取到的通讯录内容
+
+![png](/assets/img/Androidworm/06.png)
 
 ### 结语：在分析过程中采集到了很多相似的蠕虫病毒，黑产已经批量化作业，普通用户与谨慎。作为企业更需保护好用户数据，防止泄露
