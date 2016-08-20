@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "python端口扫描" 
+title:  "python多进程端口扫描" 
 date:   2016-08-20
 ---
-## python多进程端口扫描
-公司的智能硬件（多台设备），需要通过ip远程连接，但又不能确认这些设备的ip具体是什么，最开始的想法是ping，简直too young，直接利用socket.connect_ex方法，尝试连接相应的端口，就能判断设备的具体ip了，直接上代码
+##### 公司的智能硬件（多台设备），需要通过ip远程连接，但又不能确认这些设备的ip具体是什么，最开始的想法是ping，简直too young，直接利用socket.connect_ex方法，尝试连接相应的端口，就能判断设备的具体ip了，直接上代码
 
 ```python
 rom multiprocessing import Pool
